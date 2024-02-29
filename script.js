@@ -4,7 +4,7 @@ async function covid() {
 
   const chennaiData = data.TN.districts.Chennai.total;
   console.log(chennaiData);
-  document.body.innerHTML = `<div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+  document.body.innerHTML = `<div class="card text-center text-white bg-dark mb-3" style="max-width: 18rem;">
 <div class="card-header">
   Chennai Covid data
 </div>
